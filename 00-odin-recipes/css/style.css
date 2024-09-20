@@ -73,3 +73,10 @@ html {
   padding: 0px 1.1rem;
   text-decoration: none;
 }
+
+/*------All recipe pages css------*/
+
+.recipe-name {
+  text-align: center;
+  font-size: 3.5rem;
+}

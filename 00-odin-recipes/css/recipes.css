@@ -1,0 +1,66 @@
+/*------All recipe pages css------*/
+
+* {
+  background-color: black;
+  color: bisque;
+}
+/* root element style */
+html {
+  font-size: 62.5%;
+}
+
+.recipe-name {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 1px 3px #6a6a6a;
+}
+
+.recipe-pic {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.recipe-pic img {
+  border: 2px solid gold;
+  border-radius: 2rem;
+}
+
+.recipe-info,
+.recipe-details {
+  font-size: 2.8rem;
+  padding: 1.5rem;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.recipe-info {
+  font-size: 2.8rem;
+}
+
+.recipe-details {
+  font-size: 2.2rem;
+}
+
+.ingredients,
+.instruction {
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+  line-height: 1.2cm;
+}
+
+.recipe-details ul li {
+  list-style-type: square;
+}
+
+.recipe-details ul li:nth-child(2n) {
+  color: burlywood;
+}
+.recipe-details ol li {
+  list-style-type: lower-latin;
+}
